@@ -1,1 +1,26 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+        maven { url = "https://jcenter.bintray.com" }
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+        maven { url "https://maven.repository.redhat.com/ga/" }
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.ghostscript.com' }
+        maven { url = "https://jcenter.bintray.com" }
+    }
+}
+
 include ':sample', ':library'

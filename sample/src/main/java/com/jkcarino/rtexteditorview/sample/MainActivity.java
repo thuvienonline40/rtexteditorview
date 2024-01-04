@@ -1,18 +1,21 @@
 package com.jkcarino.rtexteditorview.sample;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.jaredrummler.android.colorpicker.ColorPickerDialog;
 import com.jaredrummler.android.colorpicker.ColorPickerDialogListener;
 import com.jkcarino.rtexteditorview.RTextEditorButton;
 import com.jkcarino.rtexteditorview.RTextEditorToolbar;
 import com.jkcarino.rtexteditorview.RTextEditorView;
+
+import com.jkcarino.rtexteditorview.R;
 
 public class MainActivity extends AppCompatActivity implements ColorPickerDialogListener {
 

@@ -4,14 +4,17 @@ package com.jkcarino.rtexteditorview.sample;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.TextInputEditText;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatDialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatDialogFragment;
+import androidx.fragment.app.FragmentManager;
+
+import com.google.android.material.textfield.TextInputEditText;
+import com.jkcarino.rtexteditorview.R;
 
 public class InsertTableDialogFragment extends AppCompatDialogFragment {
 

@@ -1,8 +1,6 @@
 package com.jkcarino.rtexteditorview;
 
 
-import android.support.annotation.IntDef;
-
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
@@ -39,6 +37,8 @@ import static com.jkcarino.rtexteditorview.ToolType.TEXT_FORE_COLOR;
 import static com.jkcarino.rtexteditorview.ToolType.UNDERLINE;
 import static com.jkcarino.rtexteditorview.ToolType.UNLINK;
 import static com.jkcarino.rtexteditorview.ToolType.UNORDERED_LIST;
+
+import androidx.annotation.IntDef;
 
 @IntDef({
         NONE, BOLD, ITALIC, UNDERLINE, STRIKETHROUGH, REMOVE_FORMAT, NORMAL, H1, H2, H3, H4, H5, H6,
