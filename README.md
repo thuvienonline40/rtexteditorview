@@ -4,7 +4,7 @@ RTextEditorView
 
 A simple WYSIWYG Editor for Android based on [Summernote][summernote].
 
-Migrate to AndroidX.
+**Migrate to AndroidX.**
 
 Screenshots
 ------
