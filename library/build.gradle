@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.thuvienonline40'
-version = '1.0.1'
+version = '1.0.2'
 
 android {
     namespace = "com.jkcarino.rtexteditorview"
@@ -13,8 +13,8 @@ android {
     defaultConfig {
         minSdk 15
         targetSdk 33
-        versionCode 101
-        versionName "1.0.1"
+        versionCode 102
+        versionName "1.0.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -50,7 +50,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.thuvienonline40'
                 artifactId = 'rtexteditorview'
-                version = '1.0.1'
+                version = '1.0.2'
             }
         }
     }
