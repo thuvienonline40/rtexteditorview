@@ -3,6 +3,8 @@ plugins {
     id "kotlin-android"
 }
 
+group='com.github.thuvienonline40'
+
 android {
     namespace = "com.jkcarino.rtexteditorview"
     compileSdk 33
